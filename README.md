@@ -16,6 +16,8 @@ This episode shows some of the Web Essentials 2017 extensions and if you are doi
 
 Get it from the Visual Studio marketplace here: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017 
 
+There is also a Google Chrome extension that works with browser link from Chrome: https://chrome.google.com/webstore/detail/web-essentials/mghdcdlpcdiodelbplncnodiiadljhhk
+
 ## Editor Improvements
 In this episode we looked at just a few of the editor improvements, including:
 * Accessibility and W3C validation checking via Browser Link
@@ -56,4 +58,5 @@ The Microsoft Library Installer lets you install and consume 3rd-party client-si
 [Visual Studio 2017 Update 3 blog](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/visual-studio-2017-version-15-3-released/)
 [A list of extensions for Visual Studio web developers maintained by Mads Kristensen](http://tinyurl.com/extensionlist)
 [Video: Modern front-end web development in Visual Studio 2017](https://channel9.msdn.com/events/Build/2017/B8073?term=Modern%20front-end%20web%20development%20in%20Visual%20Studio%202017)
-[Web Essentials 2017](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017 )
+[Web Essentials 2017](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebExtensionPack2017)
+[.net Core 2.0 SDK](https://www.microsoft.com/net/core#windowscmd)
