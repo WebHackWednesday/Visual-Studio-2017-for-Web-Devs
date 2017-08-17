@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationMVCTemplate",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCBasic", "MVCBasic\MVCBasic.csproj", "{2A7BB23F-03A1-416A-9C23-33D71D2DD9C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticWebTemplate", "StaticWebTemplate\StaticWebTemplate.csproj", "{C3205FC1-6750-4005-9B9A-300F4B2E6D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcHighPerformanceTemplate", "MvcHighPerformanceTemplate\MvcHighPerformanceTemplate.csproj", "{05E15F9B-C3CE-479F-BE64-313E7B288AA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{2A7BB23F-03A1-416A-9C23-33D71D2DD9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A7BB23F-03A1-416A-9C23-33D71D2DD9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A7BB23F-03A1-416A-9C23-33D71D2DD9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3205FC1-6750-4005-9B9A-300F4B2E6D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3205FC1-6750-4005-9B9A-300F4B2E6D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3205FC1-6750-4005-9B9A-300F4B2E6D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3205FC1-6750-4005-9B9A-300F4B2E6D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E15F9B-C3CE-479F-BE64-313E7B288AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E15F9B-C3CE-479F-BE64-313E7B288AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E15F9B-C3CE-479F-BE64-313E7B288AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E15F9B-C3CE-479F-BE64-313E7B288AA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
