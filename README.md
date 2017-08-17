@@ -27,7 +27,7 @@ In this episode we looked at just a few of the editor improvements, including:
 * Surface dial debugging
 * Chrome JS debugging
 
-## Single page Application Templates
+## New Templates
 With update 3, we have introduced a new set of templates for ASP.net core with most of the popular front end frameworks such as Angular and React. These SPA templates use the JavaScript Services functionality to embed NodeJS within ASP.NET Core on the server, and compile the JavaScript applications server-side as part of the .NET build process.
 
 The templates are accessible via the [Microsoft.aspnetcore.spatemplates Nuget package](https://www.nuget.org/packages/Microsoft.AspNetCore.SpaTemplates/1.0.0) and add a load of neats features including:
@@ -37,6 +37,10 @@ The templates are accessible via the [Microsoft.aspnetcore.spatemplates Nuget pa
 * CLientApp folder inside VS solution
 
 ![New SPA templates](https://msdnshared.blob.core.windows.net/media/2017/08/2-NewTemplates.png)
+
+We also looked at the [ASP.NET Core Template Pack 2017.3 extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ASPNETCoreTemplatePack20173) which adds some interesting new ASP.net configurations based around the [AspNetCore.StaticSiteHelper Nuget package](https://www.nuget.org/packages/AspNetCore.StaticSiteHelper). 
+
+You can see most of the new templates under the 'Tenplates' folder in this repository.
 
 ## Microsoft Library Installer
 One of the issues with package manager like Bower, NPM and Nuget is that they will install the entire package. For example, JQuery install 119 files when you only actually need `jquery.min.js`.

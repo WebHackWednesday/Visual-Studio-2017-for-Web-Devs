@@ -13,6 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticWebTemplate", "Static
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcHighPerformanceTemplate", "MvcHighPerformanceTemplate\MvcHighPerformanceTemplate.csproj", "{05E15F9B-C3CE-479F-BE64-313E7B288AA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactTemplate", "ReactTemplate\ReactTemplate.csproj", "{8C6802BB-4248-4F67-8E7D-FA92A4BF19B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularTemplate", "AngularTemplate\AngularTemplate.csproj", "{9339F4E9-E5A9-4C4E-A5C2-D9E5669E3B17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactReduxTemplate", "ReactReduxTemplate\ReactReduxTemplate.csproj", "{9EB2A5FD-2C29-4D8A-AECD-56D3F857752B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPITemplate", "WebAPITemplate\WebAPITemplate.csproj", "{690A439E-BE81-4737-81B0-447E4BC92AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyTemplate", "EmptyTemplate\EmptyTemplate.csproj", "{0446C0C1-CC09-4E09-8BF2-0D22C18A6391}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +49,26 @@ Global
 		{05E15F9B-C3CE-479F-BE64-313E7B288AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05E15F9B-C3CE-479F-BE64-313E7B288AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05E15F9B-C3CE-479F-BE64-313E7B288AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6802BB-4248-4F67-8E7D-FA92A4BF19B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6802BB-4248-4F67-8E7D-FA92A4BF19B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6802BB-4248-4F67-8E7D-FA92A4BF19B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6802BB-4248-4F67-8E7D-FA92A4BF19B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9339F4E9-E5A9-4C4E-A5C2-D9E5669E3B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9339F4E9-E5A9-4C4E-A5C2-D9E5669E3B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9339F4E9-E5A9-4C4E-A5C2-D9E5669E3B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9339F4E9-E5A9-4C4E-A5C2-D9E5669E3B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB2A5FD-2C29-4D8A-AECD-56D3F857752B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB2A5FD-2C29-4D8A-AECD-56D3F857752B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB2A5FD-2C29-4D8A-AECD-56D3F857752B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB2A5FD-2C29-4D8A-AECD-56D3F857752B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690A439E-BE81-4737-81B0-447E4BC92AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690A439E-BE81-4737-81B0-447E4BC92AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690A439E-BE81-4737-81B0-447E4BC92AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690A439E-BE81-4737-81B0-447E4BC92AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0446C0C1-CC09-4E09-8BF2-0D22C18A6391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0446C0C1-CC09-4E09-8BF2-0D22C18A6391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0446C0C1-CC09-4E09-8BF2-0D22C18A6391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0446C0C1-CC09-4E09-8BF2-0D22C18A6391}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
