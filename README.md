@@ -18,45 +18,31 @@ Get it from the Visual Studio marketplace here: https://marketplace.visualstudio
 
 There is also a Google Chrome extension that works with browser link from Chrome: https://chrome.google.com/webstore/detail/web-essentials/mghdcdlpcdiodelbplncnodiiadljhhk
 
-## Editor Improvements
-In this episode we looked at just a few of the editor improvements, including:
-* Accessibility and W3C validation checking via Browser Link
-* New asp.net core templates - 'static web' and 'MVC basic'
-* Improved JS Intellisense
-* Live JS editing and browser refresh on save
-* Surface dial debugging
-* Chrome JS debugging
-
 ## New Templates
 With update 3, we have introduced a new set of templates for ASP.net core with most of the popular front end frameworks such as Angular and React. These SPA templates use the JavaScript Services functionality to embed NodeJS within ASP.NET Core on the server, and compile the JavaScript applications server-side as part of the .NET build process.
 
-The templates are accessible via the [Microsoft.aspnetcore.spatemplates Nuget package](https://www.nuget.org/packages/Microsoft.AspNetCore.SpaTemplates/1.0.0) and add a load of neats features including:
+The templates are accessible via the [Microsoft.aspnetcore.spatemplates Nuget package](https://www.nuget.org/packages/Microsoft.AspNetCore.SpaTemplates/1.0.0) and add a load of neat features including:
+* ClientApp folder inside VS solution
+* Server-side pre-rendering which renders view of the server before sending to the client (great for SEO and performance)
+* Webpack middleware for bundling and packaging
 * Live server reload
-* ASP-prerender tag help which points to a JS file. This renders view of the server before sending to eth client (great for SEO and performance)
-* Exposed as middleware
-* CLientApp folder inside VS solution
 
 ![New SPA templates](https://msdnshared.blob.core.windows.net/media/2017/08/2-NewTemplates.png)
 
 We also looked at the [ASP.NET Core Template Pack 2017.3 extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ASPNETCoreTemplatePack20173) which adds some interesting new ASP.net configurations based around the [AspNetCore.StaticSiteHelper Nuget package](https://www.nuget.org/packages/AspNetCore.StaticSiteHelper). 
+* Static Web: A completely empty static web page
+* MVC Basic: very simple MVC application with no bootstrap, jquery etc
+* MVC High performance: Like MVC Basic but tuned for performance using gulp
 
-You can see most of the new templates under the 'Tenplates' folder in this repository.
+You can see projects created from most of the new templates under the 'Templates' folder in this repository.
 
-## Microsoft Library Installer
-One of the issues with package manager like Bower, NPM and Nuget is that they will install the entire package. For example, JQuery install 119 files when you only actually need `jquery.min.js`.
-
-See more detail here: https://github.com/aspnet/LibraryInstaller 
-
-The Microsoft Library Installer lets you install and consume 3rd-party client-side libraries with ease. 
-* Add any library from cdnjs.com
-* Add any file from file system, network share or remote URL
-* Only add the file(s) you need
-* Can install any file into any folder in your project/solution
-* Optional manifest file (library.json)
-* Very fast
-* Full Visual Studio 2017 integration
-
-![Manage client side libraries](https://raw.githubusercontent.com/aspnet/LibraryInstaller/master/art/context-menu-project.png)
+## Editor Improvements
+In this episode we looked at just a few of the editor improvements for JavaScript and CSS, including:
+* Accessibility and W3C validation checking via Browser Link and the [Web Accessibility Checker](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebAccessibilityChecker) extension
+* Improved JavaScript Intellisense
+* Live JavaScript editing and browser refresh on save
+* Surface dial debugging
+* Chrome JavaScript debugging via Visual Studio
 
 ## Resources
 [Visual Studio 2017 Update 3 blog](https://blogs.msdn.microsoft.com/visualstudio/2017/08/14/visual-studio-2017-version-15-3-released/)
